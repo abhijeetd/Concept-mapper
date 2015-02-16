@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ControlTemplate x:Key="ConceptTemplate">
+        <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" CornerRadius="10">
+            <TextBlock Name="conceptText" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" />
+        </Border>
+    </ControlTemplate>
+
+</ResourceDictionary>
